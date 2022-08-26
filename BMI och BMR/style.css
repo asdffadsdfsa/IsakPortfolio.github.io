@@ -1,0 +1,142 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    background-color: chocolate;
+}
+.header-2 {
+    height: 5vh;
+    
+}
+body {
+    background-image: url(fitness.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    
+    margin-top: 100px;
+    display: flex;
+    justify-content:left;
+    align-items:flex-start;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    animation: example 1.5s ease-out;
+
+}
+
+.container {
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* max-width: 400px; */
+    margin: 0 auto;
+    background-color: rgb(49, 41, 41);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.result {
+    color: white;
+}
+
+input {
+    text-align: center;
+    border: none;
+
+    height: 25px;
+    border-radius: 4px;
+}
+
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input::placeholder {
+    color: #222;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+.inputs {
+    
+    
+}
+
+.input-1 {
+    padding-bottom: 5px;
+
+}
+
+.input-2 {
+    padding-bottom: 5px;
+
+}
+
+.input-3 {
+    padding-bottom: 5px;
+
+}
+
+.radio {
+    padding-bottom: 5px;
+
+}
+
+
+
+#button {
+    background-color: initial;
+    background-image: linear-gradient(#f81460 0, #c20a66 100%);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+    line-height: 60px;
+    margin-left: -4px;
+    outline: 0;
+    text-align: center;
+    transition: all .3s cubic-bezier(.05, .03, .35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    width: 190px;
+}
+
+.button-69:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 1000px) {
+    #button {
+        font-size: 14px;
+        height: 55px;
+        line-height: 55px;
+        width: 150px;
+    }
+}
+
+@keyframes example {
+    0%   { left:0px; top:100px;}
+    100% { left:0px; top:0px;}
+  }
